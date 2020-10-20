@@ -33,3 +33,5 @@ function loader(this: loader.LoaderContext, content: Buffer): void {
 }
 
 export default loader
+
+export const raw = true
