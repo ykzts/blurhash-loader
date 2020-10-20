@@ -22,9 +22,11 @@
     "@inabagumi/prettier-config": "^1.1.2",
     "@types/loader-utils": "^2.0.1",
     "@types/webpack": "^4.41.22",
+    "conventional-github-releaser": "^3.1.5",
     "eslint": "^7.11.0",
     "microbundle": "^0.12.4",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "standard-version": "^9.0.0"
   },
   "homepage": "https://github.com/inabagumi/blurhash-loader",
   "license": "MIT",
@@ -40,7 +42,8 @@
     "build": "microbundle --no-compress --format es,cjs --no-sourcemap --strict",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "release": "standard-version"
   },
   "version": "0.1.0"
 }
