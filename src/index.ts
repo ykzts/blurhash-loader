@@ -6,6 +6,7 @@ import Jimp from './jimp'
 type LoaderOptions = {
   componentX?: number
   componentY?: number
+  esModule?: boolean
 }
 
 function loader(this: loader.LoaderContext, content: Buffer): void {
@@ -13,6 +14,8 @@ function loader(this: loader.LoaderContext, content: Buffer): void {
 
   const callback = this.async()
   const options = getOptions(this) as Readonly<LoaderOptions>
+  const esModule =
+    typeof options.esModule !== 'undefined' ? options.esModule : true
 
   Jimp.read(content)
     .then(({ bitmap }) => {
@@ -25,7 +28,12 @@ function loader(this: loader.LoaderContext, content: Buffer): void {
         options.componentY || 3
       )
 
-      callback(null, `export default '${blurhash}'`)
+      callback(
+        null,
+        `${esModule ? 'export default' : 'module.exports ='} ${JSON.stringify(
+          blurhash
+        )}`
+      )
     })
     .catch((error) => {
       callback(error, null)
