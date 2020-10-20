@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/inabagumi/blurhash-loader/compare/v0.1.0...v0.1.1) (2020-10-20)
+
+
+### Bug Fixes
+
+* **prettier:** add changelog to .prettierignore ([#8](https://github.com/inabagumi/blurhash-loader/issues/8)) ([c0ecca4](https://github.com/inabagumi/blurhash-loader/commit/c0ecca4c417598166ef380768fcc70fd3b98b165))
+
 ## 0.1.0 (2020-10-20)
 
 
