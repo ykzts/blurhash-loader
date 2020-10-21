@@ -21,7 +21,7 @@
     "@inabagumi/eslint-config": "^6.0.1",
     "@inabagumi/prettier-config": "^1.1.2",
     "@types/loader-utils": "^2.0.1",
-    "@types/webpack": "^4.41.22",
+    "@types/webpack": "^4.41.23",
     "conventional-github-releaser": "^3.1.5",
     "eslint": "^7.11.0",
     "microbundle": "^0.12.4",
