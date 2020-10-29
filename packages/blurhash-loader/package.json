@@ -42,5 +42,5 @@
   "scripts": {
     "build": "microbundle --no-compress --format es,cjs --no-sourcemap --strict"
   },
-  "version": "0.1.2"
+  "version": "0.2.0"
 }

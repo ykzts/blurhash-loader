@@ -1,3 +1,19 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [0.2.0](https://github.com/inabagumi/blurhash-loader/compare/v0.1.2...v0.2.0) (2020-10-29)
+
+
+### Bug Fixes
+
+* fix allowBranch ([#22](https://github.com/inabagumi/blurhash-loader/issues/22)) ([03e48eb](https://github.com/inabagumi/blurhash-loader/commit/03e48ebde1c887237873b2ad34e37dbec47b970b))
+
+
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
