@@ -1,0 +1,46 @@
+{
+  "author": {
+    "email": "contact@haneru.dev",
+    "name": "Haneru Developers",
+    "url": "https://haneru.dev/"
+  },
+  "bugs": {
+    "email": "security@haneru.dev",
+    "url": "https://github.com/inabagumi/blurhash-loader/issues"
+  },
+  "dependencies": {
+    "@jimp/custom": "^0.16.1",
+    "@jimp/gif": "^0.16.1",
+    "@jimp/jpeg": "^0.16.1",
+    "@jimp/png": "^0.16.1",
+    "blurhash": "^1.1.3",
+    "loader-utils": "^2.0.0"
+  },
+  "description": "A blurhash loader module for webpack.",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/inabagumi/blurhash-loader",
+  "keywords": [
+    "blurhash",
+    "webpack"
+  ],
+  "license": "MIT",
+  "name": "blurhash-loader",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "directory": "packages/blurhash-loader",
+    "type": "git",
+    "url": "https://github.com/inabagumi/blurhash-loader.git"
+  },
+  "source": "src/index.ts",
+  "main": "dist/blurhash-loader.js",
+  "module": "dist/blurhash-loader.module.js",
+  "scripts": {
+    "build": "microbundle --no-compress --format es,cjs --no-sourcemap --strict"
+  },
+  "version": "0.1.2"
+}
