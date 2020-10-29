@@ -1,0 +1,12 @@
+{
+  "command": {
+    "version": {
+      "allowBranch": true,
+      "conventionalCommits": true,
+      "message": "chore(release): %s"
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "0.1.2"
+}
