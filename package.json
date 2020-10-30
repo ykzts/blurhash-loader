@@ -30,8 +30,9 @@
   },
   "homepage": "https://github.com/inabagumi/blurhash-loader",
   "keywords": [
-    "blurhash",
-    "webpack"
+    "webpack",
+    "loader",
+    "blurhash"
   ],
   "license": "MIT",
   "name": "blurhash-loader",
