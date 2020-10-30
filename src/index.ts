@@ -1,7 +1,7 @@
 import { encode } from 'blurhash'
 import { getOptions } from 'loader-utils'
+import sharp from 'sharp'
 import { loader } from 'webpack'
-import Jimp from './jimp'
 
 const EXPORT_RE = /(?:export\s+default|module.exports\s+=)(?:\s|$)|/
 
@@ -23,13 +23,18 @@ function loader(this: loader.LoaderContext, rawContent: Buffer | string): void {
     ? rawContent.toString('utf8')
     : rawContent
 
-  Jimp.read(this.resourcePath)
-    .then(({ bitmap }) => {
-      const pixels = new Uint8ClampedArray(bitmap.data)
+  sharp(this.resourcePath)
+    .raw()
+    .ensureAlpha()
+    .toBuffer({
+      resolveWithObject: true
+    })
+    .then(({ data, info }) => {
+      const pixels = new Uint8ClampedArray(data)
       const blurhash = encode(
         pixels,
-        bitmap.width,
-        bitmap.height,
+        info.width,
+        info.height,
         options.componentX || 4,
         options.componentY || 3
       )
@@ -44,10 +49,10 @@ function loader(this: loader.LoaderContext, rawContent: Buffer | string): void {
         esModule ? 'export const ' : 'exports.'
       }blurhash = ${JSON.stringify(blurhash)}\n`
 
-      callback(null, result)
+      callback?.(null, result)
     })
     .catch((error) => {
-      callback(error, null)
+      callback?.(error, undefined)
     })
 }
 

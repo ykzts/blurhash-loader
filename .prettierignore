@@ -1,6 +1,6 @@
 /dist/
-/examples/*/.next/
-/examples/*/node_modules/
+/example/.next/
+/example/node_modules/
 /node_modules/
 
 *.md
