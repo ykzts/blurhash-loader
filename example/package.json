@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/node": "^12.12.47",
     "@types/react": "^16.9.55",
-    "blurhash-loader": "file:..",
+    "blurhash-loader": "latest",
     "file-loader": "^6.2.0",
     "next-transpile-modules": "^4.1.0",
     "typescript": "^4.0.5"
