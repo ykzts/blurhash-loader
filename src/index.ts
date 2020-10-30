@@ -4,8 +4,6 @@ import path from 'path'
 import sharp from 'sharp'
 import { loader } from 'webpack'
 
-const EXPORT_RE = /(?:export\s+default|module.exports\s+=)(?:\s|$)|/
-
 type CreatePath = (url: string, resourcePath: string, context: string) => string
 
 type LoaderOptions = {
