@@ -18,7 +18,7 @@ type LoaderOptions = {
 }
 
 function loader(this: loader.LoaderContext, content: Buffer): void {
-  if (this.cacheable) this.cacheable()
+  this.cacheable?.()
 
   const callback = this.async()
   const {
