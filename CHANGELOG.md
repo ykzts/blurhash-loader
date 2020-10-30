@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/inabagumi/blurhash-loader/compare/v0.2.0...v0.3.0) (2020-10-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* replace to sharp (#30)
+
+### Features
+
+* replace to sharp ([#30](https://github.com/inabagumi/blurhash-loader/issues/30)) ([29c0494](https://github.com/inabagumi/blurhash-loader/commit/29c04940542e5a36bf33646e6381d312e5baa02e))
+
+
+### Bug Fixes
+
+* **example:** add missing deps ([#31](https://github.com/inabagumi/blurhash-loader/issues/31)) ([9f9c2a4](https://github.com/inabagumi/blurhash-loader/commit/9f9c2a4193a626149838487aa6312fa2a72a8ed8))
+* **example:** remove yarn.lock ([#32](https://github.com/inabagumi/blurhash-loader/issues/32)) ([554b55d](https://github.com/inabagumi/blurhash-loader/commit/554b55dc2a149f711ee47341b50a3a51492712a6))
+* **example:** use latest version of blurhash-loader ([#33](https://github.com/inabagumi/blurhash-loader/issues/33)) ([94a0a9c](https://github.com/inabagumi/blurhash-loader/commit/94a0a9c1dbaa264a8087295871af45386e19141d))
+
 # [0.2.0](https://github.com/inabagumi/blurhash-loader/compare/v0.1.2...v0.2.0) (2020-10-29)
 
 
