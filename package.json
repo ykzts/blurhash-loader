@@ -25,25 +25,29 @@
     "conventional-github-releaser": "^3.1.5",
     "eslint": "^7.12.1",
     "microbundle": "^0.12.4",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "standard-version": "^9.0.0"
   },
   "homepage": "https://github.com/inabagumi/blurhash-loader",
+  "keywords": [
+    "blurhash",
+    "webpack"
+  ],
   "license": "MIT",
   "name": "blurhash-loader",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/inabagumi/blurhash-loader.git"
   },
+  "source": "src/index.ts",
+  "main": "dist/blurhash-loader.js",
+  "module": "dist/blurhash-loader.module.js",
   "scripts": {
     "build": "microbundle --no-compress --format es,cjs --no-sourcemap --strict",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
     "lint": "eslint .",
-    "release": "lerna version"
+    "release": "standard-version"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "version": "0.1.2"
 }
