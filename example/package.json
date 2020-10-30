@@ -1,6 +1,6 @@
 {
   "name": "nextjs",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.55",
-    "blurhash-loader": "file:../../packages/blurhash-loader",
+    "blurhash-loader": "file:..",
     "file-loader": "^6.2.0",
     "next-transpile-modules": "^4.1.0"
   }

@@ -1,3 +1,5 @@
 /dist/
 /node_modules/
+
+/examples/yarn.lock
 /yarn-error.log
