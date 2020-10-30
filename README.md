@@ -2,18 +2,18 @@
 
 A blurhash loader module for webpack.
 
-[example](https://blurhash-loader-example.vercel.app/)
+[Demo](https://blurhash-loader-example.vercel.app/) ([source](example/))
 
 ## Install
 
 ```console
-$ npm install -D blurhash-loader
+$ npm install -D blurhash-loader blurhash
 ```
 
 or
 
 ```console
-$ yarn add -D blurhash-loader
+$ yarn add -D blurhash-loader blurhash
 ```
 
 ## Usage
