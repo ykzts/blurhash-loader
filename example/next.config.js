@@ -10,12 +10,7 @@ module.exports = withTM({
           loader: 'blurhash-loader',
           options: {
             componentX: 4,
-            componentY: 3
-          }
-        },
-        {
-          loader: 'file-loader',
-          options: {
+            componentY: 3,
             outputPath: 'static/media',
             publicPath: '/_next/static/media'
           }

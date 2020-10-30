@@ -30,9 +30,6 @@ module.exports = {
             componentX: 4,
             componentY: 3
           }
-        },
-        {
-          loader: 'file-loader'
         }
       ]
     ]
