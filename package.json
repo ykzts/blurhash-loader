@@ -26,6 +26,10 @@
     "prettier": "^2.1.2",
     "standard-version": "^9.0.0"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "homepage": "https://github.com/inabagumi/blurhash-loader",
   "keywords": [
     "webpack",
