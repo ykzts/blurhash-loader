@@ -2,6 +2,8 @@
 
 A blurhash loader module for webpack.
 
+[example](https://blurhash-loader-example.vercel.app/)
+
 ## Install
 
 ```console
