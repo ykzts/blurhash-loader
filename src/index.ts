@@ -11,8 +11,6 @@ import schema from './schema.json'
 import type { LoaderOptions } from './types'
 
 function loader(this: loader.LoaderContext, content: Buffer): void {
-  this.cacheable?.()
-
   const callback = this.async()
 
   const options: Readonly<LoaderOptions> = getOptions(this)
