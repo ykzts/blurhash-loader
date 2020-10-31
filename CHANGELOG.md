@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.1](https://github.com/inabagumi/blurhash-loader/compare/v0.5.0...v0.5.1) (2020-10-31)
+
+
+### Bug Fixes
+
+* **pkg:** add types to package.json ([#49](https://github.com/inabagumi/blurhash-loader/issues/49)) ([41b4cd5](https://github.com/inabagumi/blurhash-loader/commit/41b4cd540c1645df82825bf107d7d065432a71bd))
+
 ## [0.5.0](https://github.com/inabagumi/blurhash-loader/compare/v0.4.1...v0.5.0) (2020-10-31)
 
 
