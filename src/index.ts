@@ -1,33 +1,33 @@
-import { encode } from 'blurhash'
-import { getOptions, interpolateName } from 'loader-utils'
 import path from 'path'
+
+import { encode } from 'blurhash'
+import type { JSONSchema7 } from 'json-schema'
+import { getOptions, interpolateName } from 'loader-utils'
+import { validate } from 'schema-utils'
 import sharp from 'sharp'
 import { loader } from 'webpack'
 
-type CreatePath = (url: string, resourcePath: string, context: string) => string
-
-type LoaderOptions = {
-  componentX?: number
-  componentY?: number
-  context?: string
-  emitFile?: boolean
-  esModule?: boolean
-  name?: string
-  outputPath?: string | CreatePath
-  publicPath?: string | CreatePath
-}
+import schema from './schema.json'
+import type { LoaderOptions } from './types'
 
 function loader(this: loader.LoaderContext, content: Buffer): void {
   this.cacheable?.()
 
   const callback = this.async()
+
+  const options: Readonly<LoaderOptions> = getOptions(this)
+
+  validate(schema as JSONSchema7, options, {
+    baseDataPath: 'options',
+    name: 'BlurHash Loader'
+  })
+
   const {
     context = this.rootContext,
     emitFile = true,
     esModule = true,
-    name = '[contenthash].[ext]',
-    ...options
-  } = getOptions(this) as Readonly<LoaderOptions>
+    name = '[contenthash].[ext]'
+  } = options
 
   const url = interpolateName(this, name, {
     context,

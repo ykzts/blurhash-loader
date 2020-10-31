@@ -1,0 +1,59 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "componentX": {
+      "description": "A componentX is the value passed directly to blurhash.",
+      "type": "number"
+    },
+    "componentY": {
+      "description": "A componentY is the value passed directly to blurhash.",
+      "type": "number"
+    },
+    "context": {
+      "description": "A custom file context.",
+      "type": "string"
+    },
+    "emitFile": {
+      "description": "Don't emit the file if false is specified.",
+      "type": "boolean"
+    },
+    "esModule": {
+      "description": "If enabled, use the ES modules syntax.",
+      "type": "boolean"
+    },
+    "name": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "instanceOf": "Function"
+        }
+      ],
+      "description": "The filename template for the target file."
+    },
+    "outputPath": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "instanceOf": "Function"
+        }
+      ],
+      "description": "A custom output path for the target file."
+    },
+    "publicPath": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "instanceOf": "Function"
+        }
+      ],
+      "description": "A custom public path for the target file."
+    }
+  },
+  "type": "object"
+}

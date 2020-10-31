@@ -1,8 +1,13 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
+    "lib": ["es2020"],
+    "module": "es2020",
+    "moduleResolution": "node",
     "noEmit": true,
-    "strict": true
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "es2015"
   },
   "exclude": ["node_modules"]
 }
