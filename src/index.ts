@@ -72,12 +72,12 @@ function loader(this: loader.LoaderContext, content: Buffer): void {
     .toBuffer({
       resolveWithObject: true
     })
-    .then(({ data, info }) => {
+    .then(({ data, info: { height, width } }) => {
       const pixels = new Uint8ClampedArray(data)
       const blurhash = encode(
         pixels,
-        info.width,
-        info.height,
+        width,
+        height,
         options.componentX || 4,
         options.componentY || 3
       )
