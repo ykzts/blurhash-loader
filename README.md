@@ -56,16 +56,16 @@ export default function Home() {
 
 ## Options
 
-| Name         | Type                | Default                     | Description                                              |
-| ------------ | ------------------- | --------------------------- | -------------------------------------------------------- |
-| `componentX` | `{Number}`          | `4`                         | A `componentX` is the value passed directly to blurhash. |
-| `componentY` | `{Number}`          | `3`                         | A `componentY` is the value passed directly to blurhash. |
-| `context`    | `{String}`          | `loaderContext.rootContext` | A custom file context.                                   |
-| `emitFile`   | `{Boolean}`         | `true`                      | Don't emit the file if `false` is specified.             |
-| `esModule`   | `{Boolean}`         | `true`                      | If enabled, use the ES modules syntax.                   |
-| `name`       | `{String|Function}` | `'[contenthash].[ext]'`     | The filename template for the target file.               |
-| `outputPath` | `{String|Function}` | `undefined`                 | A custom output path for the target file.                |
-| `publicPath` | `{String|Function}` | `undefined`                 | A custom public path for the target file.                |
+| Name         | Type                 | Default                     | Description                                              |
+| ------------ | -------------------- | --------------------------- | -------------------------------------------------------- |
+| `componentX` | `{Number}`           | `4`                         | A `componentX` is the value passed directly to blurhash. |
+| `componentY` | `{Number}`           | `3`                         | A `componentY` is the value passed directly to blurhash. |
+| `context`    | `{String}`           | `loaderContext.rootContext` | A custom file context.                                   |
+| `emitFile`   | `{Boolean}`          | `true`                      | Don't emit the file if `false` is specified.             |
+| `esModule`   | `{Boolean}`          | `true`                      | If enabled, use the ES modules syntax.                   |
+| `name`       | `{String\|Function}` | `'[contenthash].[ext]'`     | The filename template for the target file.               |
+| `outputPath` | `{String\|Function}` | `undefined`                 | A custom output path for the target file.                |
+| `publicPath` | `{String\|Function}` | `undefined`                 | A custom public path for the target file.                |
 
 ## License
 

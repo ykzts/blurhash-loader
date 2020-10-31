@@ -3,4 +3,4 @@
 /example/node_modules/
 /node_modules/
 
-*.md
+CHANGELOG.md
