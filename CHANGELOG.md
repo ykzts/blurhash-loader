@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/inabagumi/blurhash-loader/compare/v0.4.1...v0.5.0) (2020-10-31)
+
+
+### Features
+
+* **loader:** validate options ([#42](https://github.com/inabagumi/blurhash-loader/issues/42)) ([3e4bb17](https://github.com/inabagumi/blurhash-loader/commit/3e4bb17612f6633b4efecef0b6dd2d517b6580ff))
+
+
+### Bug Fixes
+
+* **loader:** remove cacheable method ([#43](https://github.com/inabagumi/blurhash-loader/issues/43)) ([f60fa74](https://github.com/inabagumi/blurhash-loader/commit/f60fa74319c14fae99000c647d550ab5f83596b9))
+
 ### [0.4.1](https://github.com/inabagumi/blurhash-loader/compare/v0.4.0...v0.4.1) (2020-10-30)
 
 
