@@ -7,13 +7,13 @@ A blurhash loader module for webpack.
 ## Install
 
 ```console
-$ npm install -D blurhash-loader blurhash
+$ npm install -D blurhash-loader
 ```
 
 or
 
 ```console
-$ yarn add -D blurhash-loader blurhash
+$ yarn add -D blurhash-loader
 ```
 
 ## Usage
