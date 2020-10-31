@@ -13,6 +13,12 @@ import type { LoaderOptions } from './types'
 function loader(this: loader.LoaderContext, content: Buffer): void {
   const callback = this.async()
 
+  if (!callback) {
+    throw new TypeError(
+      'The BlurHash Loader does not support synchronous mode.'
+    )
+  }
+
   const options: Readonly<LoaderOptions> = getOptions(this)
 
   validate(schema as JSONSchema7, options, {
@@ -51,10 +57,10 @@ function loader(this: loader.LoaderContext, content: Buffer): void {
       publicPath = options.publicPath(url, this.resourcePath, context)
     } else {
       const basePath = options.publicPath.endsWith('/')
-        ? options.publicPath
-        : `${options.publicPath}/`
+        ? options.publicPath.slice(0, -1)
+        : options.publicPath
 
-      publicPath = basePath + url
+      publicPath = `${basePath}/${url}`
     }
 
     publicPath = JSON.stringify(publicPath)
@@ -84,14 +90,14 @@ function loader(this: loader.LoaderContext, content: Buffer): void {
 
       const result = `${
         esModule ? 'export default' : 'module.exports ='
-      } ${publicPath}\n${
+      } ${publicPath};\n${
         esModule ? 'export const ' : 'exports.'
-      }blurhash = ${JSON.stringify(blurhash)}\n`
+      }blurhash = ${JSON.stringify(blurhash)};\n`
 
-      callback?.(null, result)
+      callback(null, result)
     })
     .catch((error) => {
-      callback?.(error, undefined)
+      callback(error, undefined)
     })
 }
 
