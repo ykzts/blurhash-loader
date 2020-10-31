@@ -1,5 +1,6 @@
 /dist/
 /node_modules/
+/test/output/
 
 /example/yarn.lock
 /yarn-error.log
