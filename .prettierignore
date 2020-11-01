@@ -1,6 +1,6 @@
 /dist/
-/example/.next/
-/example/node_modules/
+/examples/*/node_modules/
+/examples/nextjs/.next/
 /node_modules/
 
 CHANGELOG.md

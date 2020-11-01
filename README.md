@@ -2,7 +2,7 @@
 
 A blurhash loader module for webpack.
 
-[Demo](https://blurhash-loader-example.vercel.app/) ([source](example/))
+[Demo](https://blurhash-loader-example.vercel.app/) ([source](examples/nextjs/))
 
 ## Install
 
