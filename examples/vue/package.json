@@ -1,0 +1,25 @@
+{
+  "name": "vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "blurhash": "^1.1.3",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-blurhash": "^0.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "blurhash-loader": "link:../..",
+    "sass": "^1.26.5",
+    "sass-loader": "^10.0.4",
+    "typescript": "~4.0.5",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
