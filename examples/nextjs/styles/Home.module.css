@@ -65,18 +65,28 @@
   width: 800px;
 }
 
-.photo canvas,
-.photo img {
+.blurhashWrapper,
+.imageWrapper {
   display: block;
+  height: 100%;
   left: 0;
   position: absolute;
   top: 0;
+  width: 100%;
 }
 
-.photo canvas {
+.blurhashWrapper {
+  padding-top: 75%;
+}
+
+.blurhash {
+  left: 0;
+  position: absolute;
+  top: 0;
   transition: opacity 0.8s ease;
+  width: 100%;
 }
 
-.photo:hover canvas {
+.blurhash:hover {
   opacity: 0;
 }
