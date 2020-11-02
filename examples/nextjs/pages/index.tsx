@@ -30,15 +30,15 @@ export default function Home() {
 
         <div className={styles.photo}>
           <div className={styles.imageWrapper}>
-            <Image
-              alt=""
-              height={600}
-              sizes="(max-width: 360px) 100vw, 800px"
-              src={photo}
-              width={800}
-            />
-          </div>
-          <div className={styles.blurhashWrapper}>
+            <div className={styles.image}>
+              <Image
+                alt=""
+                height={600}
+                sizes="(max-width: 360px) 100vw, 800px"
+                src={photo}
+                width={800}
+              />
+            </div>
             <BlurhashCanvas
               className={styles.blurhash}
               hash={blurhash}
