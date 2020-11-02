@@ -1,0 +1,39 @@
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.photo {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.imageWrapper {
+  padding-top: calc(100% * (600 / 800));
+  position: relative;
+  width: 100%;
+}
+
+.image,
+.blurhash {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.blurhash {
+  opacity: 1;
+  transition: opacity 0.8s ease;
+}
+
+.blurhash:hover {
+  opacity: 0;
+}
