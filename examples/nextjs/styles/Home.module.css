@@ -59,14 +59,19 @@
 }
 
 .photo {
-  max-width: 100%;
-  padding-top: 75%;
-  position: relative;
-  width: 800px;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
 }
 
-.blurhashWrapper,
 .imageWrapper {
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.image,
+.blurhash {
   display: block;
   height: 100%;
   left: 0;
@@ -75,16 +80,8 @@
   width: 100%;
 }
 
-.blurhashWrapper {
-  padding-top: 75%;
-}
-
 .blurhash {
-  left: 0;
-  position: absolute;
-  top: 0;
   transition: opacity 0.8s ease;
-  width: 100%;
 }
 
 .blurhash:hover {
