@@ -1,7 +1,9 @@
 /dist/
 /examples/*/node_modules/
 /examples/nextjs/.next/
+/examples/nextjs/out/
 /examples/react/dist/
+/examples/vue/dist/
 /node_modules/
 /test/output/
 
