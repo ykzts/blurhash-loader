@@ -16,7 +16,7 @@
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-typescript": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "blurhash-loader": "link:../..",
+    "blurhash-loader": "latest",
     "sass": "^1.26.5",
     "sass-loader": "^10.0.4",
     "typescript": "~4.0.5",

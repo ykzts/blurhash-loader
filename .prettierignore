@@ -6,5 +6,6 @@
 /examples/vue/dist/
 /node_modules/
 /test/output/
+/website/.next/
 
 CHANGELOG.md

@@ -1,0 +1,39 @@
+# Getting Started
+
+## Installation
+
+You need to install it using `npm` or `yarn`.
+
+```console
+$ npm install --save-dev blurhash-loader
+```
+
+or
+
+```console
+$ yarn add --dev blurhash-loader
+```
+
+## Usage
+
+### webpack.config.js
+
+```javascript
+module.exports = {
+  // ...
+  module: {
+    rules: [
+      test: /\.(?:gif|jpe?g|png|webp)$/i,
+      use: [
+        {
+          loader: 'blurhash-loader',
+          options: {
+            componentX: 4,
+            componentY: 3
+          }
+        }
+      ]
+    ]
+  }
+}
+```
