@@ -11,7 +11,7 @@
     "@types/react": "^16.9.55",
     "@types/react-dom": "^16.9.9",
     "babel-loader": "^8.1.0",
-    "blurhash-loader": "link:../..",
+    "blurhash-loader": "latest",
     "css-loader": "^5.0.0",
     "html-webpack-plugin": "^4.5.0",
     "style-loader": "^2.0.0",

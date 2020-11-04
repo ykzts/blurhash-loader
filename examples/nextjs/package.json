@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "postinstall": "yarn install --cwd ../.. --frozen-lockfile && yarn --cwd ../.. build"
+    "start": "next start"
   },
   "dependencies": {
     "blurhash": "^1.1.3",
@@ -18,7 +17,7 @@
   "devDependencies": {
     "@types/node": "^12.12.47",
     "@types/react": "^16.9.55",
-    "blurhash-loader": "link:../..",
+    "blurhash-loader": "latest",
     "next-transpile-modules": "^4.1.0",
     "typescript": "^4.0.5"
   }

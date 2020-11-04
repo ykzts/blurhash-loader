@@ -1,5 +1,7 @@
 /dist/
 /node_modules/
 /test/output/
+/website/.next/
+/website/node_modules/
 
 /yarn-error.log
