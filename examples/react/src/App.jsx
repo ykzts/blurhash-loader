@@ -1,5 +1,5 @@
 import { BlurhashCanvas } from 'react-blurhash'
-import photo, { blurhash } from '../../../photos/ramen.jpg'
+import photo, { blurhash } from '../photos/ramen.jpg'
 import styles from './App.module.css'
 
 /**

@@ -17,7 +17,7 @@
 <script lang="ts">
 import Vue from 'vue'
 import { BlurHashImage } from 'vue-blurhash'
-import photoURL, { blurhash } from '../../../photos/ramen.jpg'
+import photoURL, { blurhash } from '../photos/ramen.jpg'
 
 import 'vue-blurhash/dist/vue-blurhash.css'
 
