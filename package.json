@@ -38,7 +38,7 @@
     "dist",
     "src"
   ],
-  "homepage": "https://github.com/inabagumi/blurhash-loader",
+  "homepage": "https://blurhash-loader.vercel.app/",
   "keywords": [
     "webpack",
     "loader",
