@@ -12,8 +12,8 @@ describe('loader', () => {
     const output = modules?.[0].source
 
     expect(output)
-      .toBe(`export default __webpack_public_path__ + "c46d46cf447041bca4413cc71eb4a939.jpg";
-export const blurhash = "LJK]ui=f0kIn}?xtWAxHOHE2weE2";
+      .toBe(`export default __webpack_public_path__ + "0c3691f0fa0663c51ad3b10707f7dd71.jpg";
+export const blurhash = "LJK,A.=f0kIn}?xtWAxHOaE2sBE2";
 `)
   })
 })

@@ -21,7 +21,13 @@ export default function compile(
               test: /\.(?:gif|jpe?g|png)$/i,
               use: [
                 {
-                  loader: path.resolve(__dirname, '..', '..'),
+                  loader: path.resolve(
+                    __dirname,
+                    '..',
+                    '..',
+                    'src',
+                    'index.ts'
+                  ),
                   options: loaderOptions
                 }
               ]
