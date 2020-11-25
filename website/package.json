@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "next": "^10.0.2",
+    "next": "^10.0.3",
     "nextra": "^0.3.1",
     "nextra-theme-docs": "^0.3.1",
     "react": "^16.14.0",
