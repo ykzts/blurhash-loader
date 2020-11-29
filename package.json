@@ -16,7 +16,7 @@
   },
   "description": "A blurhash loader module for webpack.",
   "devDependencies": {
-    "@inabagumi/eslint-config": "^6.0.2",
+    "@inabagumi/eslint-config": "^7.0.0",
     "@inabagumi/prettier-config": "^1.1.2",
     "@types/jest": "^26.0.15",
     "@types/json-schema": "^7.0.6",
