@@ -18,7 +18,7 @@
   "devDependencies": {
     "@inabagumi/eslint-config": "^7.0.0",
     "@inabagumi/prettier-config": "^1.1.2",
-    "@types/jest": "^26.0.18",
+    "@types/jest": "^26.0.19",
     "@types/json-schema": "^7.0.6",
     "@types/loader-utils": "^2.0.1",
     "@types/sharp": "^0.26.1",
