@@ -29,7 +29,7 @@
     "memfs": "^3.2.0",
     "microbundle": "^0.13.0",
     "prettier": "^2.2.1",
-    "standard-version": "^9.0.0",
+    "standard-version": "^9.1.0",
     "ts-jest": "^26.4.4",
     "webpack": "^4.44.2",
     "webpack-merge": "^5.7.3"
