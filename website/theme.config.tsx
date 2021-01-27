@@ -1,4 +1,5 @@
 export default {
+  font: false,
   footerEditOnGitHubLink: false,
   footerText: 'Copyright © 2020 Haneru Developers',
   github: 'https://github.com/inabagumi/blurhash-loader',
