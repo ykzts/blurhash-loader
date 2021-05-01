@@ -1,4 +1,6 @@
 {
   "buildCommand": "build",
+  "packages": ["packages/blurhash-loader"],
+  "node": "14",
   "sandboxes": ["/examples/nextjs", "/examples/react", "/examples/vue"]
 }

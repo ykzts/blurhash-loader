@@ -1,12 +1,19 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
+    "lib": ["es2020"],
+    "module": "es2020",
+    "moduleResolution": "node",
+    "noEmit": true,
     "jsx": "preserve",
-    "skipLibCheck": true
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2015"
   },
   "exclude": ["node_modules"],
-  "extends": "../tsconfig",
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
