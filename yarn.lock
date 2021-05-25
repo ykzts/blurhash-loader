@@ -1237,7 +1237,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@jest/types@^27.0.1":
+"@jest/types@^27.0.0-next.8", "@jest/types@^27.0.1":
   version "27.0.1"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-27.0.1.tgz#631738c942e70045ebbf42a3f9b433036d3845e4"
   integrity sha512-8A25RRV4twZutsx2D+7WphnDsp7If9Yu6ko0Gxwrwv8BiWESFzka34+Aa2kC8w9xewt7SDuCUSZ6IiAFVj3PRg==
@@ -7663,17 +7663,17 @@ jest-snapshot@^27.0.1:
     pretty-format "^27.0.1"
     semver "^7.3.2"
 
-jest-util@^26.1.0:
-  version "26.6.2"
-  resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-26.6.2.tgz#907535dbe4d5a6cb4c47ac9b926f6af29576cbc1"
-  integrity sha512-MDW0fKfsn0OI7MS7Euz6h8HNDXVQ0gaM9uW6RjfDmd1DAFcaxX9OqIakHIqhbnmF08Cf2DLDG+ulq8YQQ0Lp0Q==
+jest-util@27.0.0-next.9:
+  version "27.0.0-next.9"
+  resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-27.0.0-next.9.tgz#05ec3996e15edd1510cfcfdc6dda3de8c837546b"
+  integrity sha512-q9/hnWgFIx4Wkd/RoxoOeODL1kvwlX8+uo5fdi5oxEi7CrJIUDXS/QqICWo0GoqW4HlEgATdLmjG1gZXXDSyww==
   dependencies:
-    "@jest/types" "^26.6.2"
+    "@jest/types" "^27.0.0-next.8"
     "@types/node" "*"
     chalk "^4.0.0"
     graceful-fs "^4.2.4"
-    is-ci "^2.0.0"
-    micromatch "^4.0.2"
+    is-ci "^3.0.0"
+    picomatch "^2.2.3"
 
 jest-util@^27.0.1:
   version "27.0.1"
@@ -12477,15 +12477,15 @@ trough@^1.0.0:
   resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.5.tgz#b8b639cefad7d0bb2abd37d433ff8293efa5f406"
   integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
 
-ts-jest@^26.5.6:
-  version "26.5.6"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-26.5.6.tgz#c32e0746425274e1dfe333f43cd3c800e014ec35"
-  integrity sha512-rua+rCP8DxpA8b4DQD/6X2HQS8Zy/xzViVYfEs2OQu68tkCuKLV0Md8pmX55+W24uRIyAsf/BajRfxOs+R2MKA==
+ts-jest@^27.0.0-next.12:
+  version "27.0.0-next.12"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-27.0.0-next.12.tgz#8a617df2440186315341e9209cfd06f010b71563"
+  integrity sha512-Bde6QLSS8s2riYk8Aw/fpLdcSpH4dFSpY+JeRk8LQ/kvEZoSs5Gx4C8VqnugHO8CnlkOwvoSbI0PsAs8V85o3A==
   dependencies:
     bs-logger "0.x"
     buffer-from "1.x"
     fast-json-stable-stringify "2.x"
-    jest-util "^26.1.0"
+    jest-util "27.0.0-next.9"
     json5 "2.x"
     lodash "4.x"
     make-error "1.x"
