@@ -23,7 +23,7 @@
     "jest": "^27.0.1",
     "lerna": "^4.0.0",
     "memfs": "^3.2.2",
-    "microbundle": "^0.13.0",
+    "microbundle": "^0.13.1",
     "prettier": "~2.3.0",
     "ts-jest": "^27.0.1",
     "webpack": "^4.46.0",
