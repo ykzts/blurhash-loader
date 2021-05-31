@@ -16,7 +16,7 @@
     "@types/json-schema": "^7.0.7",
     "@types/loader-utils": "^2.0.2",
     "@types/node": "^14.17.1",
-    "@types/sharp": "^0.28.2",
+    "@types/sharp": "^0.28.3",
     "@types/webpack": "^4.41.29",
     "conventional-github-releaser": "^3.1.5",
     "eslint": "^7.27.0",
