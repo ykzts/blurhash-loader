@@ -27,7 +27,7 @@
     "prettier": "~2.3.1",
     "ts-jest": "^27.0.3",
     "webpack": "^4.46.0",
-    "webpack-merge": "^5.7.3"
+    "webpack-merge": "^5.8.0"
   },
   "homepage": "https://blurhash-loader.vercel.app/",
   "license": "MIT",
