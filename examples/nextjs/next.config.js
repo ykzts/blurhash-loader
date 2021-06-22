@@ -1,6 +1,9 @@
 const withTM = require('next-transpile-modules')(['react-blurhash'])
 
 module.exports = withTM({
+  eslint: {
+    ignoreDuringBuilds: true
+  },
   webpack(config, { defaultLoaders }) {
     config.module.rules.push({
       test: /\.jpg/g,
