@@ -9100,10 +9100,10 @@ next@^11.0.1:
     vm-browserify "1.1.2"
     watchpack "2.1.1"
 
-nextra-theme-docs@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-1.1.7.tgz#f2da363912213d7a2c90cfc97b8ad0cf4d9f727c"
-  integrity sha512-7s/Er3TVS43u//z2DdBOw4NJOtK4dF+s/2K20hf2z/FM2lVajMJG7ZE2LhQF0xNEH8qQTuPw77xGU1YxumsWFA==
+nextra-theme-docs@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-1.2.1.tgz#59a36765b8ac8497aa4a235e834df39ac87e3fad"
+  integrity sha512-uwE6XAWFp+EYIu130rLShxPNvMfZHTXrPeDVB3/ENrHGn6DYnFoJSwszRhogYWF6bvoiJEKo3Gk9puEL9u5gCQ==
   dependencies:
     "@mdx-js/react" "^1.6.16"
     "@reach/skip-nav" "^0.11.2"
@@ -9115,6 +9115,7 @@ nextra-theme-docs@^1.1.7:
     intersection-observer "^0.12.0"
     match-sorter "^4.2.0"
     next-themes "^0.0.8"
+    parse-git-url "^1.0.1"
     prism-react-renderer "^1.1.1"
     react-innertext "^1.1.5"
     title "^3.4.2"
@@ -9772,6 +9773,11 @@ parse-entities@^2.0.0:
     is-alphanumerical "^1.0.0"
     is-decimal "^1.0.0"
     is-hexadecimal "^1.0.0"
+
+parse-git-url@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/parse-git-url/-/parse-git-url-1.0.1.tgz#92bdaf615a7e24d32bea3bf955ee90a9050aeb57"
+  integrity sha512-Zukjztu09UXpXV/Q+4vgwyVPzUBkUvDjlqHlpG+swv/zYzed/5Igw/33rIEJxFDRc5LxvEqYDVDzhBfnOLWDYw==
 
 parse-github-repo-url@^1.3.0:
   version "1.4.1"
