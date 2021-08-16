@@ -9125,10 +9125,10 @@ next@^11.1.0:
     vm-browserify "1.1.2"
     watchpack "2.1.1"
 
-nextra-theme-docs@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-1.2.1.tgz#59a36765b8ac8497aa4a235e834df39ac87e3fad"
-  integrity sha512-uwE6XAWFp+EYIu130rLShxPNvMfZHTXrPeDVB3/ENrHGn6DYnFoJSwszRhogYWF6bvoiJEKo3Gk9puEL9u5gCQ==
+nextra-theme-docs@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-1.2.2.tgz#b45181d428000ee65946426a1c0c5464906b2824"
+  integrity sha512-NS/2OzHHAtAlbbMZyyWkRCPWY38MT2RP6YVviZGWhDXXuklmaNBRRfhS7TFFAIhShoWw9YHuAkG5EropaNoKmg==
   dependencies:
     "@mdx-js/react" "^1.6.16"
     "@reach/skip-nav" "^0.11.2"
