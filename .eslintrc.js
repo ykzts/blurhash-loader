@@ -1,7 +1,25 @@
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
-  extends: '@inabagumi',
+  env: {
+    browser: true,
+    node: true
+  },
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+  ignorePatterns: ['dist/', 'examples/', 'test/output/', 'website/'],
+  overrides: [
+    {
+      extends: [
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking'
+      ],
+      files: ['*.ts']
+    }
+  ],
   parserOptions: {
-    project: 'tsconfig.json'
+    ecmaVersion: 2020,
+    project: 'tsconfig.json',
+    sourceType: 'module'
   },
   root: true
 }
