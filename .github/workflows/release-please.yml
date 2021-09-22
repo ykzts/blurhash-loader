@@ -11,7 +11,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v2
         id: release
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           package-name: blurhash-loader
           release-type: node
       - uses: actions/checkout@v2
