@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://www.github.com/inabagumi/blurhash-loader/compare/v0.5.2...v0.6.0) (2021-09-22)
+
+
+### Features
+
+* disable external font ([#165](https://www.github.com/inabagumi/blurhash-loader/issues/165)) ([8ffba34](https://www.github.com/inabagumi/blurhash-loader/commit/8ffba3404c7d319d8e29c4dfd1ce13f69532bf24))
+
+
+### Bug Fixes
+
+* **deps:** only patch release can be upgraded for prettier ([#267](https://www.github.com/inabagumi/blurhash-loader/issues/267)) ([d9e0d57](https://www.github.com/inabagumi/blurhash-loader/commit/d9e0d57ff208d503de3a36615d548bd89a63b643))
+* **website:** disable eslint ([2199579](https://www.github.com/inabagumi/blurhash-loader/commit/2199579ba1c18a07f6c12615850084699b542dbc))
+
+
+### Reverts
+
+* **github-actions:** use github actions tokens ([6169d6c](https://www.github.com/inabagumi/blurhash-loader/commit/6169d6c5f02dabf8e3678cf83c8379dbf434b676))
+
 ### [0.5.2](https://github.com/inabagumi/blurhash-loader/compare/v0.5.1...v0.5.2) (2020-11-02)
 
 
