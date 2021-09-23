@@ -1,8 +1,8 @@
 export default {
   font: false,
   footerEditOnGitHubLink: false,
-  footerText: 'Copyright © 2020 Haneru Developers',
-  github: 'https://github.com/inabagumi/blurhash-loader',
+  footerText: 'Copyright © 2021 Yamagishi Kazutoshi',
+  github: 'https://github.com/ykzts/blurhash-loader',
   head: (
     <>
       <meta name="theme-color" content="#ffffff" />
