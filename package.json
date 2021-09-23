@@ -1,12 +1,7 @@
 {
-  "author": {
-    "email": "contact@haneru.dev",
-    "name": "Haneru Developers",
-    "url": "https://haneru.dev/"
-  },
+  "author": "Yamagishi Kazutoshi <ykzts@desire.sh>",
   "bugs": {
-    "email": "security@haneru.dev",
-    "url": "https://github.com/inabagumi/blurhash-loader/issues"
+    "url": "https://github.com/ykzts/blurhash-loader/issues"
   },
   "dependencies": {
     "blurhash": "^1.1.4",
@@ -51,7 +46,7 @@
   "name": "blurhash-loader",
   "repository": {
     "type": "git",
-    "url": "https://github.com/inabagumi/blurhash-loader.git"
+    "url": "https://github.com/ykzts/blurhash-loader.git"
   },
   "main": "dist/blurhash-loader.js",
   "module": "dist/blurhash-loader.module.js",

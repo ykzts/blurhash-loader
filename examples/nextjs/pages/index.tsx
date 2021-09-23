@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to{' '}
           <a
-            href="https://github.com/inabagumi/blurhash-loader"
+            href="https://github.com/ykzts/blurhash-loader"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -48,12 +48,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a href="https://haneru.dev/" target="_blank" rel="noopener noreferrer">
-          Powered by Haneru Developers
-        </a>
-      </footer>
     </div>
   )
 }
